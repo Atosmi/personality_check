@@ -1,4 +1,5 @@
 ﻿# personality_check
+ A short explanation of how the code works
 ## Importing necessary libraries
 
 The code begins by importing necessary libraries. SentimentIntensityAnalyzer from vaderSentiment is used to analyze the sentiment of news headlines and descriptions. streamlit is used to create the user interface for the app. requests is used to fetch news articles from an API. pandas is used to manipulate data in a tabular format. matplotlib.pyplot is used to visualize data in the form of a pie chart.
@@ -17,4 +18,4 @@ The code then proceeds to analyze the sentiment of news headlines and descriptio
 
 ## Visualizing the results
 
-The results are then displayed using st.write(). A pie chart is also plotted using matplotlib.pyplot to visually represent the percentages of negative, positive, and neutral sentiment. The chart is then displayed in the app using st.pyplot().
+The results are then displayed using st.write(). A pie chart is also plotted using matplotlib.pyplot to visually represent the percentages of negative, positive, and neutral sentiment. It is then displayed in the app using st.pyplot().
